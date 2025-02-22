@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+}
+
+.container {
+  position: relative;
+  width: 950px;
+  height: 746px;
+  background: white;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 950px;
+  height: 746px;
+  background: url('./page.png') no-repeat center;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.header {
+  background: url('./assets/banner.png') no-repeat center;
+  background-size: cover;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+  color: white;
+}
+
+.header h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.location-input, .event-input {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 8px;
+  padding: 5px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+
+.location-input img, .event-input img {
+  width: 20px;
+  height: 20px;
+}
+
+input {
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.find-events-btn {
+  background: #00C853;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-top: 20px;
+  padding: 10px 90px;
+}
+
+.event-card {
+  width: 182px;
+}
+
+.event-image {
+  position: relative;
+  height: 110px;
+  margin-bottom: 20px;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.event-date {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.event-content {
+  padding: 0px;
+}
+
+.event-title {
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-size: 10px;
+}
+
+.event-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #666;
+  font-size: 8px;
+  margin-bottom: 5px;
+}
+
+.event-time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #666;
+  font-size: 8px;
+}
+
+.event-time img {
+  width: 10px;
+  height: 10px;
+}
+
+.event-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 600;
+  color: #333;
+  font-size: 10px;
+  margin-bottom: 12px;
+}
+
+.remaining {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #666;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.remaining img {
+  width: 12px;
+  height: 12px;
+}
+
+.booking-ended {
+  color: #ff4444;
+  font-size: 12px;
+}
+
+.free-tag {
+  color: #00C853;
+  font-weight: 500;
+}
