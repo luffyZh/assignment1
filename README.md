@@ -14,7 +14,7 @@ Please run `./util/setup.sh` in your terminal before you begin. This will set up
 
 ### 1. Task 1 - Static, fixed size page
 
-Build a page that looks identical to [task1/page.png](task1/page.png). The window width you should work with is 1756 x 1666 pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
+Build a page that looks identical to [task1/page.png](task1/page.png). The window width you should work with is `1756 x 1666` pixels. You are only allowed to use HTML and CSS for this task. No external libraries are permitted.
 
 Please build your page in [task1/index.html](task1/index.html). You are welcome to create as many CSS files that you need in the `task1` folder for `index.html` to import. When being marked, your tutor will start with `index.html`.
 
