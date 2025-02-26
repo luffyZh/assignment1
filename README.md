@@ -2,7 +2,13 @@
 
 N/A
 
-# Assessment 1 (HTML, CSS)
+# Git 冲突解决
+
+如何解决 Git 冲突：
+
+1 - xxx
+2 - xxx
+3 - xxx
 
 [Please see course website for full spec](https://cgi.cse.unsw.edu.au/~cs6080/NOW/assessments/assignments/ass1)
 
